@@ -1,3 +1,9 @@
 <template>
-  <h1 class="text-rose-400 text-3xl">bismillah</h1>
+  <home-view></home-view>
 </template>
+
+<script setup>
+import HomeView from '@/views/HomeView.vue'
+</script>
+
+<style lang="scss" scoped></style>
