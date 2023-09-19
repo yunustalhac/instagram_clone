@@ -1,6 +1,6 @@
 <template>
   <div
-    class="tablet:grid tablet:grid-cols-[1fr,295px] tablet: gap-[30px] max-w-[605px] tablet:max-w-none ml-auto mr-auto"
+    class="tablet:grid tablet:grid-cols-[1fr,295px] tablet: gap-[30px] max-w-[605px] tablet:max-w-none ml-auto mr-auto bg-red-600"
   >
     <div class="timeline">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur debitis
