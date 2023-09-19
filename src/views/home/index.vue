@@ -1,74 +1,22 @@
 <template>
-  <div class="home grid-cols-[615px">
+  <div
+    class="tablet:grid tablet:grid-cols-[1fr,295px] tablet: gap-[30px] max-w-[605px] tablet:max-w-none ml-auto mr-auto"
+  >
     <div class="timeline">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet delectus dicta doloribus
-        inventore neque repudiandae. Aliquid debitis delectus dolor eaque eum fuga in, laboriosam
-        magni minima non nostrum perspiciatis quasi qui ratione reiciendis reprehenderit sequi sint
-        temporibus, vero voluptatibus. Ab aliquid at delectus eos est fugiat, fugit illum, numquam
-        perferendis, praesentium quis quisquam vero voluptate! Consectetur cum exercitationem in
-        nostrum nulla, quaerat quas quidem ratione totam veniam! Atque cum esse rem sunt voluptate?
-        Aperiam cupiditate est expedita ipsam iste minus perspiciatis possimus rem repudiandae
-        sequi! Accusamus animi, atque ducimus, enim illo libero natus officiis perferendis quasi qui
-        sapiente tempore.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet delectus dicta doloribus
-        inventore neque repudiandae. Aliquid debitis delectus dolor eaque eum fuga in, laboriosam
-        magni minima non nostrum perspiciatis quasi qui ratione reiciendis reprehenderit sequi sint
-        temporibus, vero voluptatibus. Ab aliquid at delectus eos est fugiat, fugit illum, numquam
-        perferendis, praesentium quis quisquam vero voluptate! Consectetur cum exercitationem in
-        nostrum nulla, quaerat quas quidem ratione totam veniam! Atque cum esse rem sunt voluptate?
-        Aperiam cupiditate est expedita ipsam iste minus perspiciatis possimus rem repudiandae
-        sequi! Accusamus animi, atque ducimus, enim illo libero natus officiis perferendis quasi qui
-        sapiente tempore.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet delectus dicta doloribus
-        inventore neque repudiandae. Aliquid debitis delectus dolor eaque eum fuga in, laboriosam
-        magni minima non nostrum perspiciatis quasi qui ratione reiciendis reprehenderit sequi sint
-        temporibus, vero voluptatibus. Ab aliquid at delectus eos est fugiat, fugit illum, numquam
-        perferendis, praesentium quis quisquam vero voluptate! Consectetur cum exercitationem in
-        nostrum nulla, quaerat quas quidem ratione totam veniam! Atque cum esse rem sunt voluptate?
-        Aperiam cupiditate est expedita ipsam iste minus perspiciatis possimus rem repudiandae
-        sequi! Accusamus animi, atque ducimus, enim illo libero natus officiis perferendis quasi qui
-        sapiente tempore.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet delectus dicta doloribus
-        inventore neque repudiandae. Aliquid debitis delectus dolor eaque eum fuga in, laboriosam
-        magni minima non nostrum perspiciatis quasi qui ratione reiciendis reprehenderit sequi sint
-        temporibus, vero voluptatibus. Ab aliquid at delectus eos est fugiat, fugit illum, numquam
-        perferendis, praesentium quis quisquam vero voluptate! Consectetur cum exercitationem in
-        nostrum nulla, quaerat quas quidem ratione totam veniam! Atque cum esse rem sunt voluptate?
-        Aperiam cupiditate est expedita ipsam iste minus perspiciatis possimus rem repudiandae
-        sequi! Accusamus animi, atque ducimus, enim illo libero natus officiis perferendis quasi qui
-        sapiente tempore.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet delectus dicta doloribus
-        inventore neque repudiandae. Aliquid debitis delectus dolor eaque eum fuga in, laboriosam
-        magni minima non nostrum perspiciatis quasi qui ratione reiciendis reprehenderit sequi sint
-        temporibus, vero voluptatibus. Ab aliquid at delectus eos est fugiat, fugit illum, numquam
-        perferendis, praesentium quis quisquam vero voluptate! Consectetur cum exercitationem in
-        nostrum nulla, quaerat quas quidem ratione totam veniam! Atque cum esse rem sunt voluptate?
-        Aperiam cupiditate est expedita ipsam iste minus perspiciatis possimus rem repudiandae
-        sequi! Accusamus animi, atque ducimus, enim illo libero natus officiis perferendis quasi qui
-        sapiente tempore.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet delectus dicta doloribus
-        inventore neque repudiandae. Aliquid debitis delectus dolor eaque eum fuga in, laboriosam
-        magni minima non nostrum perspiciatis quasi qui ratione reiciendis reprehenderit sequi sint
-        temporibus, vero voluptatibus. Ab aliquid at delectus eos est fugiat, fugit illum, numquam
-        perferendis, praesentium quis quisquam vero voluptate! Consectetur cum exercitationem in
-        nostrum nulla, quaerat quas quidem ratione totam veniam! Atque cum esse rem sunt voluptate?
-        Aperiam cupiditate est expedita ipsam iste minus perspiciatis possimus rem repudiandae
-        sequi! Accusamus animi, atque ducimus, enim illo libero natus officiis perferendis quasi qui
-        sapiente tempore.
-      </p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur debitis
+      dignissimos hic nam nisi odio, odit placeat quaerat quam! Dolore expedita fugiat hic libero
+      necessitatibus nesciunt quam reprehenderit voluptas. Lorem ipsum dolor sit amet, consectetur
+      adipisicing elit. Aspernatur consectetur debitis dignissimos hic nam nisi odio, odit placeat
+      quaerat quam! Dolore expedita fugiat hic libero necessitatibus nesciunt quam reprehenderit
+      voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur
+      debitis dignissimos hic nam nisi odio, odit placeat quaerat quam! Dolore expedita fugiat hic
+      libero necessitatibus nesciunt quam reprehenderit voluptas.
     </div>
-    <div class="sidebar"></div>
+    <div class="sidebar hidden tablet:block">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur debitis
+      dignissimos hic nam nisi odio, odit placeat quaerat quam! Dolore expedita fugiat hic libero
+      necessitatibus nesciunt quam reprehenderit voluptas.
+    </div>
     <h1>Bismillah</h1>
   </div>
 </template>
