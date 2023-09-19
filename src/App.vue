@@ -14,4 +14,8 @@ import Header from '@/components/Header.vue'
 import Container from '@/components/Container.vue'
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+body {
+  padding-top: 60px;
+}
+</style>

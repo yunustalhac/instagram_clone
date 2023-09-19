@@ -1,15 +1,22 @@
-<template>
-  <header class="border-b border-b-[rgb(var(--b6a))]">
-    <container class="container grid items-center grid-cols-3 h-[60px] header">
+<template class="pt-[--header-height]">
+  <header class="border-b fixed w-full">
+    <container
+      class="container bg-white fixed left-0 right-0 top-0 z-50 tablet:grid tablet:items-center tablet:grid-cols-3 h-[60px] tablet:header flex justify-center items-center"
+    >
+      <!--      logo-->
       <router-link to="/" class="text-2xl font-bold">instagram</router-link>
-      <form class="text-center">
+      <!--      search-->
+      <form class="tablet:text-center hidden tablet:block">
         <input
-          class="border-b border-b-[rgb(var(--b6a))] rounded bg-[rgb(var(--b3f))] h-[28px] w-[215px] pl-[20px] pr-[20px]"
+          class="bg-gray-100 tablet:border tablet:rounded tablet:h-[28px] tablet:w-[215px] tablet:pl-[20px] tablet:pr-[20px]"
           type="text"
           placeholder="Search"
         />
       </form>
-      <div class="navigation flex justify-end items-center">
+      <!--   navigation   -->
+      <div
+        class="navigation tablet:border-0 tablet:h-auto tablet:justify-end tablet:static z-50 flex h-[80px] items-center justify-around fixed left-0 right-0 bottom-0 bg-white border-t border-t-[rgb(var(--b6a))]"
+      >
         <router-link to="/">
           <svg
             v-if="$route.name !== 'home'"
@@ -106,14 +113,15 @@
 
 <script setup>
 import container from '@/components/Container.vue'
-
 const name = 'home'
 </script>
 
 <style lang="scss" scoped>
-.navigation {
-  a {
-    margin-left: 20px;
+@media (min-width: 640px) {
+  .navigation {
+    a {
+      margin-left: 20px;
+    }
   }
 }
 </style>

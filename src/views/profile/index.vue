@@ -7,11 +7,13 @@
       <router-link to="/profile/save">SAVE</router-link>
       <router-link to="/profile/tag">TAG</router-link>
     </div>
+    <index />
   </div>
 </template>
 
 <script setup>
 const name = 'profileIndex'
+import index from '@/views/home/index.vue'
 </script>
 
 <style scoped></style>
