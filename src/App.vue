@@ -1,13 +1,17 @@
 <template>
   <div class="app">
-    <div class="flex gap-3 bg-amber-200 nav">
-      <router-link class="bg-amber-700 rounded" to="/">home</router-link>
-      <router-link class="bg-amber-700 rounded" to="/profile">profile </router-link>
-    </div>
-    <router-view />
+    <Header />
+    <main class="pt-[40px]">
+      <container>
+        <router-view />
+      </container>
+    </main>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import Header from '@/components/Header.vue'
+import Container from '@/components/Container.vue'
+</script>
 
 <style lang="scss" scoped></style>

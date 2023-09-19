@@ -1,11 +1,10 @@
 <template>
-  <div class="home">
-    <h1>profile-igtv</h1>
+  <div class="direct">
+    <h1>direct</h1>
   </div>
 </template>
-
 <script setup>
-const name = 'igtv'
+const name = 'directIndex'
 </script>
 
 <style scoped></style>

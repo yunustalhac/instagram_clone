@@ -4,6 +4,8 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const name = 'save'
+</script>
 
 <style scoped></style>

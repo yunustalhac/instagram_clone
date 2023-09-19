@@ -5,6 +5,8 @@
 </template>
 
 <script setup>
+const name = 'textPage'
+
 defineProps({
   tag: {
     default: 'p',

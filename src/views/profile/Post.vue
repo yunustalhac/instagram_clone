@@ -4,6 +4,8 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const name = 'post'
+</script>
 
 <style scoped></style>

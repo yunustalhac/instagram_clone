@@ -4,6 +4,8 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const name = 'tag'
+</script>
 
 <style scoped></style>

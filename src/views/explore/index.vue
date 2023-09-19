@@ -1,11 +1,10 @@
 <template>
-  <div class="home">
-    <h1>profile-igtv</h1>
+  <div class="explorex">
+    <h1>explore</h1>
   </div>
 </template>
-
 <script setup>
-const name = 'igtv'
+const name = 'exploreIndex'
 </script>
 
 <style scoped></style>
