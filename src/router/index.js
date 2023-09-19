@@ -1,8 +1,8 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/profile/index.vue'
+import { createRouter, createWebHashHistory } from 'vue-router'
+import HomeView from '../views/home/index.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
@@ -12,37 +12,37 @@ const router = createRouter({
     {
       path: '/direct',
       name: 'direct',
-      component: () => import(/*webpackChunkName:"profile"*/ '@/views/direct/index.vue')
+      component: () => import('@/views/direct/index.vue')
     },
     {
       path: '/explore',
       name: 'explore',
-      component: () => import(/*webpackChunkName:"profile"*/ '@/views/explore/index.vue')
+      component: () => import('@/views/explore/index.vue')
     },
     {
       path: '/profile',
       name: 'profile',
-      component: () => import(/*webpackChunkName:"profile"*/ '@/views/profile/index.vue'),
+      component: () => import('@/views/profile/index.vue'),
       children: [
         {
           path: '',
           name: 'post',
-          component: () => import(/*webpackChunkName:"profile"*/ '@/views/profile/Post.vue')
+          component: () => import('@/views/profile/Post.vue')
         },
         {
-          path: '/igtv',
+          path: 'igtv',
           name: 'igtv',
-          component: () => import(/*webpackChunkName:"profile"*/ '@/views/profile/igtvPage.vue')
+          component: () => import('@/views/profile/igtvPage.vue')
         },
         {
-          path: '/save',
+          path: 'save',
           name: 'profileSAVE',
-          component: () => import(/*webpackChunkName:"profile"*/ '@/views/profile/Save.vue')
+          component: () => import('@/views/profile/Save.vue')
         },
         {
-          path: '/tag',
+          path: 'tag',
           name: 'profileTAG',
-          component: () => import(/*webpackChunkName:"profile"*/ '@/views/profile/Tag.vue')
+          component: () => import('@/views/profile/Tag.vue')
         }
       ]
     }

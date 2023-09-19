@@ -113,7 +113,7 @@
 
 <script setup>
 import container from '@/components/Container.vue'
-const name = 'home'
+const name = 'header'
 </script>
 
 <style lang="scss" scoped>
