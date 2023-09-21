@@ -105,7 +105,9 @@
             />
           </svg>
         </router-link>
-        <router-link to="/profile">profile</router-link>
+        <router-link to="/profile">
+          <avatar :size="25"/>
+        </router-link>
       </div>
     </container>
   </header>
@@ -113,6 +115,7 @@
 
 <script setup>
 import container from '@/components/Container.vue'
+import Avatar from "@/components/avatar.vue";
 const name = 'header'
 </script>
 
