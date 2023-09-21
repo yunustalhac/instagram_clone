@@ -1,5 +1,5 @@
 <template class="pt-[--header-height]">
-  <header class="border-b fixed w-full">
+  <header class="border-b fixed w-full z-50">
     <container
       class="container bg-white fixed left-0 right-0 top-0 z-50 tablet:grid tablet:items-center tablet:grid-cols-3 h-[60px] tablet:header flex justify-center items-center"
     >

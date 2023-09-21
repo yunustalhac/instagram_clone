@@ -3,8 +3,8 @@
     class="tablet:grid tablet:grid-cols-[1fr,295px] tablet: gap-[30px] max-w-[605px] tablet:max-w-none ml-auto mr-auto"
   >
     <div class="timeline">
-      <h1>home</h1>
-      <avatar :size="120"/>
+
+      <post/>
     </div>
 
     <div class="sidebar hidden tablet:block">
@@ -18,6 +18,7 @@
 
 <script setup>
 import Avatar from "@/components/avatar.vue";
+import Post from "@/components/Post.vue";
 
 const name = 'home'
 </script>

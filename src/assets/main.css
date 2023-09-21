@@ -6,3 +6,11 @@
 body {
     padding-top: 60px;
 }
+
+button{
+    cursor: pointer;
+}
+
+img{
+    vertical-align: middle;
+}
