@@ -1,7 +1,7 @@
 <template>
-  <div class="post relative border ">
+  <div class="post relative border-b">
     <!--header-->
-    <header class=" section header flex items-center h-[60px]">
+    <header class="section header flex items-center h-[60px]">
       <div class="header-author flex items-center">
         <avatar :size="40"/>
         <div class="author ml-[16px]">
@@ -32,7 +32,7 @@
     <!--media-->
 
     <div class="post-media">
-      <img src="https://i.pinimg.com/564x/93/87/90/938790b17acb5b3b8236d65ce8c4fc45.jpg" alt="">
+      <img class="h-[50%] w-full" src="https://i.pinimg.com/originals/7e/12/39/7e123919543ae203896afc4fa481822e.jpg" alt="">
     </div>
 
     <!--actions -->

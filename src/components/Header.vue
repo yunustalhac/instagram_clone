@@ -4,7 +4,7 @@
       class="container bg-white fixed left-0 right-0 top-0 z-50 tablet:grid tablet:items-center tablet:grid-cols-3 h-[60px] tablet:header flex justify-center items-center"
     >
       <!--      logo-->
-      <router-link to="/" class="text-2xl font-bold">instagram</router-link>
+      <router-link to="/" class="text-2xl font-bold">İnstagram</router-link>
       <!--      search-->
       <form class="tablet:text-center hidden tablet:block">
         <input
@@ -117,6 +117,12 @@
 import container from '@/components/Container.vue'
 import Avatar from "@/components/avatar.vue";
 const name = 'header'
+
+defineProps({
+  focinp: {
+    type: Function
+  }
+})
 </script>
 
 <style lang="scss" scoped>

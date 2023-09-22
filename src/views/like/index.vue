@@ -1,10 +1,14 @@
 <template>
   <div class="flex justify-center">
-  <h1>direct</h1>
+
+  <h1>like</h1>
   </div>
 </template>
+
 <script setup>
-const name = 'directIndex'
+const name = "like"
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+
+</style>

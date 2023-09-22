@@ -1,5 +1,6 @@
 <template>
-  <div class="explorex">
+  <div class="flex justify-center">
+
     <h1>explore</h1>
   </div>
 </template>
