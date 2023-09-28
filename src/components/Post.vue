@@ -1,5 +1,5 @@
 <template>
-  <div class="post relative border-b">
+  <div class="pl-40 tablet:pl-0 post relative border-b">
     <!--header-->
     <header class="section header flex items-center h-[60px]">
       <div class="header-author flex items-center">

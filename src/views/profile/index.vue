@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="pl-40 home">
     <text-page>profile</text-page>
     <text-page tag="p"
       >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores commodi
